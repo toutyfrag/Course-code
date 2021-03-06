@@ -80,4 +80,15 @@ function calculator(num1, num2, operator){
     return operator(num1, num2)
 }
 
+CONSTRUCTIVE FUNCTION
+// CONSTRUCTIVE FUCTION EXAMPLE //
+
+function HouseKeeper (yearsOfExperience, name, cleaningRepertoire) {
+    this.yearsOfExperience = yearsOfExperience;
+    this.name = name;
+    this.cleaningRepertoire = cleaningRepertoire;
+}
+
+var housekeeper1 = new HouseKeeper(12, "Jason", ["bathroom", "bedroom"]);
+
 
